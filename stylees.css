@@ -1,0 +1,50 @@
+
+body{
+    margin: 0%;
+}
+#logo{
+    margin: 8px;
+}
+div#header{
+    position: relative;
+    font-family: "Amatic SC", sans-serif !important;
+    font-size: 135px;
+    text-align: center;
+    color: #03295a;
+    opacity: 1;
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+p{
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+}
+#header::before {
+    content: "";
+    position: absolute;
+    background-image: url(https://ocdn.eu/pulscms-transforms/1/LR0k9kpTURBXy9jYjMxNGEzNjc1MjU3YThmNGEwOWQ2NTg4ZDNmNmYwNC5qcGeTlQMAzHHNBPzNAs2TBc0EsM0CpJMJpmZlYWQwNwbeAAGhMAE/magda-gessler-rusza-ze-swiatecznym-cateringiem-tyle-zaplacisz-za-5-pierogow.jpeg);
+    opacity: 0.3;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-size: cover;
+}
+div#program > img {
+    margin-left: 40px;
+    float: left;
+    margin-right: 10px;
+}
+#program > h1 {
+    font-family: "Amatic SC", sans-serif !important;
+    font-size: 75px;
+    text-align: center;
+    color: rgb(197,0,0);
+}
+#program > p{
+    font-size: 20px;
+    color: #03295a;
+}
+
+
+
